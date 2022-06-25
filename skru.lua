@@ -52,7 +52,7 @@ if game.PlaceId == 10008450542 or 10008443595 then
     end)
 
 
-elseif game.PlaceId ~= 9742262009 then
+elseif game.PlaceId ~= 10008450542 or 10008443595 then
     local StarterGui = game:GetService("StarterGui")
     local Notifications = {
         ["Title"] = "Skru [ERROR]",
