@@ -3,6 +3,7 @@
 - added teleport to park enternece
 - removed disable sun rays
 - able to inject in the plaza now
+- added fov slider
 
 
 quick and easy execute
