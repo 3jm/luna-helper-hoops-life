@@ -7,8 +7,7 @@
 - added teleport to player (wont check if they're in your game or not, if you dont tp, they arent, if you do, they are)
 - added settings section
 
-
-quick and easy execute
+# Execute
 
 ```lua
 loadstring(game:HttpGet("https://raw.githubusercontent.com/3jm/luna-helper-hoops-life/main/luna.lua"))()
