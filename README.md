@@ -1,6 +1,8 @@
-# Notice 
+# Update 1.0.2
 
-hoops life had a major update which probably broke every feature, i might fix them and add a fov slider but that's it
+- added teleport to park enternece
+- removed disable sun rays
+- able to inject in the plaza now
 
 
 quick and easy execute
