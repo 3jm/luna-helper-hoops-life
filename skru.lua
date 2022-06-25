@@ -1,4 +1,4 @@
-if game.PlaceId == 9742262009 then
+if game.PlaceId == 10008450542 or 10008443595 then
     local StarterGui = game:GetService("StarterGui")
     local Notifications = {
         ["Title"] = "Skru",
@@ -25,19 +25,15 @@ if game.PlaceId == 9742262009 then
         game:GetService("Players").LocalPlayer.CameraMaxZoomDistance = 5000
         game:GetService("Players").LocalPlayer.CameraMinZoomDistance = 0.5
     end)
-
+    VisualsSection:NewSlider("Field Of View", "Changes your cameras FOV", 120, 70, function(v) -- 500 (MaxValue) | 0 (MinValue)
+        game.Workspace.Camera.FieldOfView = v
+    end)
     
 
     -- LIGHTING SECTION --
     local Lighting = Window:NewTab("Lighting")
     local LightingSection = Lighting:NewSection("Lighting")
-    LightingSection:NewToggle("Toggle Sun Rays", "Enabled or Disables Sun Rays", function(state)
-        if state then
-            game:GetService("Lighting").SunRays.Enabled = false
-        else
-            game:GetService("Lighting").SunRays.Enabled = true
-        end
-    end)
+    
     LightingSection:NewColorPicker("Atmosphere Color", "Changes Atmosphere Color", Color3.fromRGB(0,0,0), function(color)
         game:GetService("Lighting").ColorCorrection.TintColor = color
     end)
@@ -46,6 +42,13 @@ if game.PlaceId == 9742262009 then
     end)
     LightingSection:NewButton("Reset", "Resets Saturation to default", function()
         game:GetService("Lighting").ColorCorrection.Saturation = 0
+    end)
+
+    -- Teleport Section -- 
+    local Teleport = Window:NewTab("Teleport")
+    local TeleportSection = Teleport:NewSection("Teleport")
+    TeleportSection:NewButton("Park", "Teleports you to park enterence (PLAZA ONLY)", function()
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(180,3.37,-88)
     end)
 
 
