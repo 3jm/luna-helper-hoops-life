@@ -4,7 +4,7 @@
 - removed disable sun rays
 - able to inject in the plaza now
 - added fov slider
-- added teleport to player (wont check if theyre in your game or not, if you dont tp, they arent)
+- added teleport to player (wont check if they're in your game or not, if you dont tp, they arent, if you do, they are)
 
 
 quick and easy execute
