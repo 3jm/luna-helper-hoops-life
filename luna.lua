@@ -139,7 +139,7 @@ if Name == "NBA_Grownboy" then
     TeleportSection:NewLabel("Teleport (COURT ONLY)")
     TeleportSection:NewButton("Back To Plaza", "Teleports you to plaza return", function()
         if game.PlaceId == 10008450542 then
-            game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(399.27,23.35,-214.65)
+            game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(299.34,23.6,-214.61)
         else
             local StarterGui = game:GetService("StarterGui")
             local Notifications = {
