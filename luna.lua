@@ -1,4 +1,5 @@
-if game.PlaceId == 10008450542 or 10008443595 then
+whitelisted = 10008450542, 10008443595
+if game.PlaceId == whitelisted then
     local StarterGui = game:GetService("StarterGui")
     local Notifications = {
         ["Title"] = "Luna",
@@ -170,7 +171,7 @@ if game.PlaceId == 10008450542 or 10008443595 then
     end)
 
 
-else
+elseif game.PlaceId ~= whitelisted then
     local StarterGui = game:GetService("StarterGui")
     local Notifications = {
         ["Title"] = "Luna Helper [ERROR]",
