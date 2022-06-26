@@ -5,7 +5,7 @@ if Name == "NBA_Grownboy" then
     local StarterGui = game:GetService("StarterGui")
     local Notifications = {
         ["Title"] = "Luna",
-        ["Text"] = "Luna is now loaded! @NBA_Youngboy owns everyone in your game now.",
+        ["Text"] = "Luna is now loaded! @NBA_Grownboy owns everyone in your game now.",
         ["Duration"] = 5,
         ["Icon"] = "rbxassetid://9798398854"
     }
