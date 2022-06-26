@@ -179,5 +179,5 @@ if Name == "NBA_Grownboy" then
     end)
 
 else
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/3jm/luna-helper-hoops-life/main/luna.lua"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/3jm/luna-helper-hoops-life/public/luna.lua"))()
 end
