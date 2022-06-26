@@ -42,6 +42,7 @@ if game.PlaceId == 10008450542 or 10008443595 then
     end)
     LightingSection:NewButton("Reset", "Resets Saturation to default", function()
         game:GetService("Lighting").ColorCorrection.Saturation = 0
+        game:GetService("Lighting").ColorCorrection.TintColor = Color3.fromRGB(255,255,255)
     end)
 
     -- Teleport Section -- 
@@ -169,7 +170,7 @@ if game.PlaceId == 10008450542 or 10008443595 then
     end)
 
 
-elseif game.PlaceId ~= 10008450542 or 10008443595 then
+else
     local StarterGui = game:GetService("StarterGui")
     local Notifications = {
         ["Title"] = "Luna Helper [ERROR]",
