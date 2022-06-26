@@ -1,7 +1,7 @@
 local Player = game:GetService("Players").LocalPlayer;
 local Name = Player.Name;
 
-if Name ~= "NBA_Grownboy" then
+if Name == "NBA_Grownboy" then
     local StarterGui = game:GetService("StarterGui")
     local Notifications = {
         ["Title"] = "Luna",
