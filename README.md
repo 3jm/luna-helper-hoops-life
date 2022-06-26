@@ -1,11 +1,6 @@
-# Update 1.0.3
+# Update 1.0.4
 
-- added teleport to park enternece
-- removed disable sun rays
-- able to inject in the plaza now
-- added fov slider
-- added teleport to player (wont check if they're in your game or not, if you dont tp, they arent, if you do, they are)
-- added settings section
+- fixed teleport to park
 
 # Execute
 
